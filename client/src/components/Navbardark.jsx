@@ -3,10 +3,10 @@ import { FiArrowRight } from "react-icons/fi";
 
 export default function Navbardark() {
   return (
-    <nav className="bg-[#0D0D0D] text-white px-6 py-3">
+    <nav className="fixed top-0 w-full bg-[#0D0D0D] text-white px-6 py-3">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Left - Logo */}
-        <div className="text-xl font-bold cursor-pointer">
+        <div className="text-xl font-bold cursor-pointer ml-10">
           Logo
         </div>
 
